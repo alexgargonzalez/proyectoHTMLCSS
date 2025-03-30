@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +17,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
     background-color: #f963af;
 }
 .educator-main header nav ul{
@@ -28,5 +34,33 @@
     font-size: 15px;
 }
 .educator-main img{
-    width: 200px;
+    width: 250px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/imagenes/guarderia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    
+}
+main h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main p{
+    color: #ffffff;
+}
+main a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #f963af;
+    border-radius: 20px;
 }
