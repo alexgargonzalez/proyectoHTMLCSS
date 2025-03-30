@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.educator-main{
+    height: 100vh;
+}
+.educator-main header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #f963af;
+}
+.educator-main header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.educator-main header nav ul li{
+    list-style: none;
+}
+.educator-main header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+.educator-main img{
+    width: 200px;
+}
