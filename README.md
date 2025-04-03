@@ -1,5 +1,4 @@
-# proyectoHTMLCSS
-Proyecto de HTML y CSS para Lenguaje de Marcas.
+# Proyecto HTML y CSS
 
 Cabecera (Header): Contiene un logo (imagen sin fondo) y un menú de navegación con 3 secciones: "Sobre mí", "Servicios" y "Contacto".
 
