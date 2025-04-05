@@ -1,6 +1,6 @@
 # Educadora Infantil - Sitio Web Profesional 🎨👧📚
 
-![Preview del sitio](ProyectoHTMLCSS/imagenes/preview.jpg)
+![Preview del sitio](proyectoHTMLCSS/imagenes/preview.jpg)
 
 Sitio web profesional para una educadora infantil que ofrece servicios de cuidado temprano, estimulación cognitiva y orientación familiar.
 
