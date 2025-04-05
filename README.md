@@ -6,7 +6,7 @@ Sitio web profesional para una educadora infantil que ofrece servicios de cuidad
 
 ## 📝 Descripción
 
-Portal web responsive que incluye:
+Portal web que incluye:
 - Presentación profesional
 - Catálogo de servicios
 - Formulario de contacto
