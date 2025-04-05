@@ -27,8 +27,6 @@ Portal web que incluye:
 - **Integración con redes sociales**
 
 ### 🌈 Aspectos técnicos destacados
-- ✅ Diseño 100% responsive
-- ✅ Optimizado para móviles (Mobile-first)
 - ✅ Semántica HTML5
 - ✅ Flexbox + CSS Grid
 - ✅ Transiciones CSS suaves
