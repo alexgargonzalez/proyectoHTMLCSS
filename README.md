@@ -81,7 +81,7 @@ El sitio está optimizado para los siguientes tamaños de pantalla:
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/tu-usuario/sitio-educadora-infantil.git
+   git clone https://github.com/alexgargonzalez/proyectoHTMLCSS.git
    ```
 
 2. Abre cualquiera de los archivos HTML en tu navegador preferido.
