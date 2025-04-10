@@ -1,52 +1,112 @@
-# Educadora Infantil - Sitio Web Profesional 🎨👧📚
+# Sitio Web de Educadora Infantil
 
-![Preview del sitio](ProyectoHTMLCSS/imagenes/preview.png)
+Este repositorio contiene un sitio web responsive diseñado para una educadora infantil. El sitio incluye varias páginas que muestran información sobre servicios de educación infantil, perfil profesional y métodos de contacto.
 
-Sitio web profesional para una educadora infantil que ofrece servicios de cuidado temprano, estimulación cognitiva y orientación familiar.
+## 📑 Estructura del Sitio
 
-## 📝 Descripción
+El sitio web está compuesto por las siguientes páginas:
 
-Portal web que incluye:
-- Presentación profesional
-- Catálogo de servicios
-- Formulario de contacto
-- Información de ubicación
-- Redes sociales
-- Recursos educativos
+### 🏠 Página Principal (index.html)
+- **Header**: Logo y menú de navegación
+- **Hero Section**: Título principal y botón de contacto con imagen de fondo
+- **Sección de Servicios**: Tarjetas con información sobre los servicios ofrecidos
+- **Sección de Contacto**: Formulario para que los visitantes envíen mensajes
+- **Footer**: Información de contacto, enlaces útiles y redes sociales
 
-**Objetivo principal**: Proporcionar una plataforma digital moderna para conectar con familias y mostrar metodologías educativas.
+### 👩‍🏫 Página Sobre Mí (sobre-mi.html)
+- Diseño simple y directo
+- Información personal y profesional de la educadora
+- Fotografía de perfil
+- Breve descripción enfocada en la experiencia y formación académica (Grado Superior en Educación Infantil)
 
-## ✨ Características principales
+## 🎨 Estilos y Diseño
 
-### 🎯 Secciones clave
-- **Header interactivo** con menú responsive
-- **Hero section** con efecto de superposición
-- **Tarjetas de servicios** con hover animations
-- **Formulario de contacto** con validación
-- **Footer** con 3 columnas responsivas
-- **Integración con redes sociales**
+### 🎨 Paleta de Colores
+- **Color principal**: #f963af (Rosa fucsia)
+- **Color secundario**: #ffa0cd (Rosa claro)
+- **Fondos**: #ffffff (Blanco)
+- **Texto**: #333333, #444444, #ffffff
 
-### 🌈 Aspectos técnicos destacados
-- ✅ Semántica HTML5
-- ✅ Flexbox + CSS Grid
-- ✅ Transiciones CSS suaves
-- ✅ Iconos vectoriales
-- ✅ Performance optimizada
+### 📝 Tipografía
+- **Fuente principal**: 'Nunito' (Sans-serif)
+- **Tamaños de fuente**: Responsive mediante clamp() y media queries
 
-## 🛠 Tecnologías utilizadas
+### 📱 Responsividad
+El sitio está optimizado para los siguientes tamaños de pantalla:
+- **Escritorio**: > 992px
+- **Tablet**: 768px - 992px
+- **Móvil grande**: 576px - 768px
+- **Móvil pequeño**: < 576px
 
-**Frontend:**
-- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
-- ![Font Awesome](https://img.shields.io/badge/-Font_Awesome-339AF0?logo=fontawesome&logoColor=white)
+## 🛠️ Tecnologías Utilizadas
 
-**Herramientas:**
-- ![Google Fonts](https://img.shields.io/badge/-Google_Fonts-4285F4?logo=googlefonts&logoColor=white)
-- ![CSS Grid](https://img.shields.io/badge/-CSS_Grid-1572B6?logo=css3&logoColor=white)
-- ![Flexbox](https://img.shields.io/badge/-Flexbox-1572B6?logo=css3&logoColor=white)
+- **HTML5**: Estructura semántica
+- **CSS3**:
+  - Flexbox
+  - CSS Grid
+  - Media queries
+  - Variables CSS
+  - Animaciones y transiciones
+- **Fuentes**: Google Fonts
+- **Iconos**: Font Awesome (CDN)
 
-## 🚀 Instalación
+## 📁 Estructura de Archivos
 
-1. Clona el repositorio:
-```bash
-git clone https://github.com/alexgargonzalez/proyectoHTMLCSS.git
+```
+├── index.html                 # Página principal
+├── sobre-mi.html              # Página sobre la educadora
+├── styles.css                 # Estilos para la página principal
+├── sobre-mi.css               # Estilos para la página "Sobre mí"
+├── imagenes/
+│   ├── logosinfondo.png       # Logo principal
+│   ├── guarderia.png          # Imagen de fondo para la sección hero
+│   ├── facebook.png           # Icono de Facebook
+│   ├── instagram (1).png      # Icono de Instagram
+│   ├── whatsapp.png           # Icono de WhatsApp
+│   └── gorjeo.png             # Icono de Twitter
+└── README.md                  # Este archivo
+```
+
+## 🚀 Características Implementadas
+
+- **Diseño Completamente Responsive**: Adaptable a cualquier dispositivo
+- **Navegación Intuitiva**: Menú claro y accesible
+- **Tarjetas de Servicios Interactivas**: Con efectos hover
+- **Formulario de Contacto**: Diseño limpio y funcional
+- **Integración de Redes Sociales**: Enlaces a plataformas sociales
+- **Optimización de Rendimiento**: CSS eficiente y estructurado
+- **Accesibilidad**: Etiquetas semánticas y atributos ARIA
+
+## 🔧 Instalación y Uso
+
+1. Clona este repositorio:
+   ```
+   git clone https://github.com/tu-usuario/sitio-educadora-infantil.git
+   ```
+
+2. Abre cualquiera de los archivos HTML en tu navegador preferido.
+
+3. Para desarrollo:
+   - Modifica los archivos HTML para cambiar la estructura
+   - Actualiza los archivos CSS para ajustar estilos
+   - Reemplaza las imágenes en la carpeta "imagenes" según sea necesario
+
+## 🔜 Mejoras Futuras
+
+- Añadir sección de blog con consejos de educación infantil
+- Implementar galería de fotos de actividades
+- Añadir sección de testimonios de padres
+- Desarrollar versión multilingüe (español/inglés)
+- Integrar calendario para reserva de consultas
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
+
+## 👤 Autor
+
+Diseñado con ❤️ por Alejandro
+
+---
+
+© 2025 Educadora Infantil - Todos los derechos reservados
