@@ -18,6 +18,7 @@ El sitio web está compuesto por las siguientes páginas:
 - Información personal y profesional de la educadora
 - Fotografía de perfil
 - Breve descripción enfocada en la experiencia y formación académica (Grado Superior en Educación Infantil)
+- **Sección de Preguntas Frecuentes**: Lista desplegable con preguntas y respuestas sobre horarios, servicios y métodos de contacto.
 
 ## 🎨 Estilos y Diseño
 
@@ -47,25 +48,14 @@ El sitio está optimizado para los siguientes tamaños de pantalla:
   - Media queries
   - Variables CSS
   - Animaciones y transiciones
+- **JavaScript**: Para la funcionalidad de la lista desplegable de preguntas frecuentes
 - **Fuentes**: Google Fonts
 - **Iconos**: Font Awesome (CDN)
 
 ## 📁 Estructura de Archivos
+├── index.html # Página principal ├── sobre-mi.html # Página sobre la educadora ├── styles.css # Estilos para la página principal ├── sobre-mi.css # Estilos para la página "Sobre mí" ├── imagenes/ │ ├── logosinfondo.png # Logo principal │ ├── guarderia.png # Imagen de fondo para la sección hero │ ├── facebook.png # Icono de Facebook │ ├── instagram (1).png # Icono de Instagram │ ├── whatsapp.png # Icono de WhatsApp │ └── gorjeo.png # Icono de Twitter └── README.md # Este archivo
 
-```
-├── index.html                 # Página principal
-├── sobre-mi.html              # Página sobre la educadora
-├── styles.css                 # Estilos para la página principal
-├── sobre-mi.css               # Estilos para la página "Sobre mí"
-├── imagenes/
-│   ├── logosinfondo.png       # Logo principal
-│   ├── guarderia.png          # Imagen de fondo para la sección hero
-│   ├── facebook.png           # Icono de Facebook
-│   ├── instagram (1).png      # Icono de Instagram
-│   ├── whatsapp.png           # Icono de WhatsApp
-│   └── gorjeo.png             # Icono de Twitter
-└── README.md                  # Este archivo
-```
+
 
 ## 🚀 Características Implementadas
 
@@ -76,20 +66,19 @@ El sitio está optimizado para los siguientes tamaños de pantalla:
 - **Integración de Redes Sociales**: Enlaces a plataformas sociales
 - **Optimización de Rendimiento**: CSS eficiente y estructurado
 - **Accesibilidad**: Etiquetas semánticas y atributos ARIA
+- **Sección de Preguntas Frecuentes**: Lista desplegable que permite a los usuarios ver respuestas a preguntas comunes sobre horarios, servicios y métodos de contacto.
 
 ## 🔧 Instalación y Uso
 
-1. Clona este repositorio:
-   ```
-   git clone https://github.com/alexgargonzalez/proyectoHTMLCSS.git
-   ```
+1. Clona este repositorio: git clone https://github.com/alexgargonzalez/proyectoHTMLCSS.git
+
 
 2. Abre cualquiera de los archivos HTML en tu navegador preferido.
 
 3. Para desarrollo:
-   - Modifica los archivos HTML para cambiar la estructura
-   - Actualiza los archivos CSS para ajustar estilos
-   - Reemplaza las imágenes en la carpeta "imagenes" según sea necesario
+- Modifica los archivos HTML para cambiar la estructura
+- Actualiza los archivos CSS para ajustar estilos
+- Reemplaza las imágenes en la carpeta "imagenes" según sea necesario
 
 ## 🔜 Mejoras Futuras
 
